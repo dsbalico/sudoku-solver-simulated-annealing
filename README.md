@@ -5,6 +5,9 @@ This is a Python class `SudokuSolverAnnealing` that uses the Simulated Annealing
 ## Installation
 This project requires Python 3.6 or higher. To use the SudokuSolverAnnealing class, simply copy the code into your project or import it as a module.
 
+## Usage
+The `SudokuSolverAnnealing` class is used to solve Sudoku puzzles using the Simulated Annealing algorithm. To use it, first create an instance of the class with a 9x9 list representing a Sudoku board, and optionally set any desired parameters. Then, call the solve method on the instance to obtain a solution to the puzzle.
+
     from SudokuSolverAnnealing import SudokuSolverAnnealing
     
     # Define a Sudoku board as a 9x9 list. 
@@ -26,9 +29,6 @@ This project requires Python 3.6 or higher. To use the SudokuSolverAnnealing cla
 	solver.print_sudoku(solution)
 
 The code above defines a Sudoku board as a 9x9 list and passes it to an instance of the `SudokuSolverAnnealing` class. The `solve_sudoku` method is then called on the instance to obtain a solution to the puzzle. Finally, the `print_sudoku` method is used to print the solution to the console.
-
-## Usage
-The `SudokuSolverAnnealing` class is used to solve Sudoku puzzles using the Simulated Annealing algorithm. To use it, first create an instance of the class with a 9x9 list representing a Sudoku board, and optionally set any desired parameters. Then, call the solve method on the instance to obtain a solution to the puzzle.
 
 ## Parameters
 The `SudokuSolverAnnealing` class accepts the following parameters:
